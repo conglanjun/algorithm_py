@@ -25,3 +25,26 @@ Calculating new mid. `(0+3)/2=1`
 计算新mid值。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.15.jpg)  
 
+The middle value 2 is smaller than 3. It means candidates is in the right of mid.  
+中值2小于3，意味着候选区在中值右边。  
+Moving `left` to 2. `left=mid+1`  
+移动`left`到2的位置。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.16.jpg)  
+
+`left=2` `right=3` `mid=(left+right)/2=2`  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.17.jpg)  
+
+The middle value is equal to 3, which is the number we want to find.  
+中值等于3就是我们要找的数。  
+
+If the value of `left` is 4. It means the value should be in the left of the location of `left`.  
+如果left位置的值是4，说明要找的值在left的左边。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.18.jpg)  
+
+`right=mid-1=1` If `right` < `left`, there are not value in the candidate region.  
+此时候选区没有值了。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.19.jpg)  
+
+
+
+
