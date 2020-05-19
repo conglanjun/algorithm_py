@@ -19,7 +19,7 @@ Step 3, small plate is moved to c.
 Step 4, big plate is moved to b.  
 第四步，大盘移动到b。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.5.png)  
-Step 5, small plate is moved to a.
+Step 5, small plate is moved to a.  
 第五步，小盘移动到a。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.6.jpg)  
 Step 6, middle plate is moved to b.  
