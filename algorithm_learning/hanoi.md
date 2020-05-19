@@ -15,10 +15,10 @@ Step 2, middle plate is moved to c.
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.3.png)  
 Step 3, small plate is moved to c.  
 第三步，小盘移动到c。  
-![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.4.png)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.4.jpg)  
 Step 4, big plate is moved to b.  
 第四步，大盘移动到b。  
-![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.5.jpg)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.5.png)  
 Step 5, small plate is moved to a.
 第五步，小盘移动到a。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.6.jpg)  
