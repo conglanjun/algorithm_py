@@ -27,4 +27,5 @@ Step 6, middle plate is moved to b.
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.7.jpg)  
 Step 7, small plate is moved to b.  
 第七步，小盘移动到b。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.8.jpg)  
 
