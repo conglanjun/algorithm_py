@@ -44,6 +44,6 @@ Step 2 is that moving a plate.
 第二步是移动一个盘子的。  
 Although it's impossible to move n-1 plates in one step, it's 1 smaller than the original problem.  
 虽然不能一步移动n-1个盘子，但是比原问题规模小1。  
-Implement with recursion.  
+Implement with recursion. Code in [hanoi](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/hanoi.py)  
 用递归实现。  
 
