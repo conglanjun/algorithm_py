@@ -5,5 +5,4 @@ algorithm learning
 |author|Lanujun|
 ****
 
-学习算法和数据结构
-Learning data structure and algorithm
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.1.png)
