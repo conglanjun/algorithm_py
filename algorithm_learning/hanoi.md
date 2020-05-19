@@ -47,7 +47,7 @@ Although it's impossible to move n-1 plates in one step, it's 1 smaller than the
 Implement with recursion. Code in [hanoi](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/hanoi.py)  
 用递归实现。 
 ****
-"""
+'''
 target is move n plates from a to c with b
 step 1:
     move n-1 plates from a to b with c
@@ -56,7 +56,7 @@ step 2:
 step 3:
     move n-1 plates from b to c with a
 
-"""
+'''
 The number of moving is: h(x) = 2h(x-1) + 1, approximately N power of 2  
 h(64)=18446744073709551615  
 
