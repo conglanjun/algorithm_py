@@ -9,4 +9,4 @@ algorithm learning
 Learning data structure and algorithm
 
 * algorithm
-    * [hanoi]https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/hanoi.md(汉诺塔算法)
+    * [hanoi](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/hanoi.md)(汉诺塔算法)
