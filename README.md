@@ -5,5 +5,5 @@ algorithm learning
 |author|Lanujun|
 ****
 
-学习算法和数据结构
+学习算法和数据结构。  
 Learning data structure and algorithm
