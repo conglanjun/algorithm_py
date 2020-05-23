@@ -33,7 +33,33 @@ Let's see a list.
 看一个列表。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.21.jpg)  
 If the element pointed by arrow is bigger than back one, exchanging them.  
+如果指针指向的元素大于后面的元素，交换。
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.22.jpg)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.23.jpg)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.24.jpg)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.25.jpg)  
+7 is smaller than 8, not exchanging.  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.26.jpg)  
+8 is bigger than 2, exchanging.  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.27.jpg)  
+8 is smaller than 9, not exchanging  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.28.jpg)  
+9 is bigger than 1, exchanging  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.29.jpg)  
+Now the biggest is in the end of list. This is one sorting.    
+最大的数在列表的最后。这是一趟排序。  
+The Element's color is orange, which is in order region. The white is in disorder region.    
+橙色在有序区，白色在无序区。  
+The second sorting is in disorder.  
+对无序区第二次排序。  
+The number of order region is increased by second sorting.  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.30.jpg)  
+Finally, the list is sorted.
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.31.jpg)  
+The count of sorting is n-1. Because the number of order list is n-1, it means the whole list is order.  
+排序n-1趟，因为有序列表数是n-1个，意味着整个列表都是有序的。   
+
+
 
 
 
