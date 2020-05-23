@@ -18,3 +18,5 @@ Learning data structure and algorithm
         `每次查找候选区减少一半`  
         `Time complexity: O(logn)`
         [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/search.py)
+    * 排序
+    
