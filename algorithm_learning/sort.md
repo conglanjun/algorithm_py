@@ -54,7 +54,7 @@ The second sorting is in disorder.
 对无序区第二次排序。  
 The number of order region is increased by second sorting.  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.30.jpg)  
-Finally, the list is sorted.
+Finally, the list is sorted.  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.31.jpg)  
 The count of sorting is n-1. Because the number of order list is n-1, it means the whole list is order.  
 排序n-1趟，因为有序列表数是n-1个，意味着整个列表都是有序的。   
