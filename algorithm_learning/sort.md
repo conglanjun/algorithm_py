@@ -32,7 +32,7 @@ The number of disorder region is reduced in each sorting, while the number of or
 Let's see a list.  
 看一个列表。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.21.jpg)  
-If the element pointed by arrow is bigger than back one, exchanging them.  
+If the element pointed by arrow is bigger than back one, exchanging them.    
 如果指针指向的元素大于后面的元素，交换。
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.22.jpg)  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.23.jpg)  
