@@ -15,5 +15,6 @@ Learning data structure and algorithm
         [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/search.py)
     * [Binary Search](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/search.md)(折半查找)  
         `Halve the number of candidates in each epoch`  
-        `每次查找候选区减少一半`
+        `每次查找候选区减少一半`  
+        `Time complexity: O(logn)`
         [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/search.py)
