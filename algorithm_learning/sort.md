@@ -24,4 +24,17 @@ Common sorting algorithm
     * cardinality sort 基数排序  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.20.jpg)  
 
+bubble sorting  
+If front is bigger than back in each two nearby numbers of list, exchanging them.  
+列表每两个相邻数，如果前面比后面大，则交换。  
+The number of disorder region is reduced in each sorting, while the number of order region is increased.  
+
+Let's see a list.  
+看一个列表。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.21.jpg)  
+If the element pointed by arrow is bigger than back one, exchanging them.  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.22.jpg)  
+
+
+
 
