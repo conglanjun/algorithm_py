@@ -126,6 +126,17 @@ We compare the second biggest one of order region. When the one of order region 
 Stopping to find place, inserting the card.  
 比较第二大的牌，当手里牌小于或者已经到手里牌最左边的位置(也就是手里牌都比摸的牌大)，停止比较，插入牌。  
 
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.39.jpg)  
+Explain the code, for example, touching card is 6, it's smaller than 7 and index j points it, so 7 is moved to right.  
+And j is moved left, it points 5 index. Now 6 is bigger than 5, so 6 is inserted j+1 index.  
+说明下代码，摸到6，小于7并且j指向它，7向右移动。j索引左移指向了5，6大于5，所以插入j+1的位置。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.38.jpg)  
+When touching card is 3, it's smaller than 7,6,5,4. They are moved to right and j -= 1.  
+当摸到3时，比7,6,5,4都小，把他们右移，那么j向左移动。  
+Finally, j = -1, so while loop is over. Insert 3 into j+1 index.  
+最后j=-1，while循环结束，插入到j+1的位置。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.40.jpg)    
+
 
     
     
