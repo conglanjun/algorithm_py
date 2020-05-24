@@ -104,7 +104,28 @@ When the original list is order, the sorting only needs one loop. While version 
 For example, the color is orange, it means order region(cards in hand), it is 5.  
 The first card is 7 in the disorder region. 7 is bigger than 5, so insert 7 into the right of 5.  
 手中牌是橙色5，要摸的牌是白色。摸到7比5大，插入到5的右边。  
-![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_insert_sort.gif) 
+When the first card is 4 in disorder region, we move 7 and 5 to right.  
+摸到4，向右移动7和5。  
+Next it is 6, it is inserted between 5 and 7.  
+摸到6插入5和7之间。  
+Nest it is 3, it is inserted the first place, and following numbers are moved to right space place.  
+摸到3，有序区都向右移动，3插入到第一个位置。  
+Nest it's 1, it's inserted the first place, and following numbers are moved to right space place.  
+摸到1插入第一个位置，右边元素往右移动。  
+Nest it's 2, it's inserted between 1 and 3, and right elements are moved to right space place.  
+摸到2插入到1和3之间，右边元素往右边移动。  
+Nest it's 9, it's bigger than order region, so it's inserted the last place.  
+摸到9，比有序区都大，插入到最后的位置。  
+Nest it's 8, it's inserted 7 and 9, moving 9 to right.  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_insert_sort.gif)  
+We touch n-1 cards, white region is touched by us. After touching a card, we compare it with the biggest one of order region.  
+我们会摸到n-1张牌，白色区域是要摸的牌，摸到一张后，比较手里牌最大的。  
+If the biggest one is bigger than the card, moving the biggest one to right space place.  
+如果最大的大于手里的牌，向右移动最大牌到空位。  
+We compare the second biggest one of order region. When the one of order region is smaller than the card or reaching the first place.  
+Stopping to find place, inserting the card.  
+比较第二大的牌，当手里牌小于或者已经到手里牌最左边的位置(也就是手里牌都比摸的牌大)，停止比较，插入牌。  
+
 
     
     
