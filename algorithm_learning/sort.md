@@ -135,8 +135,37 @@ When touching card is 3, it's smaller than 7,6,5,4. They are moved to right and 
 当摸到3时，比7,6,5,4都小，把他们右移，那么j向左移动。  
 Finally, j = -1, so while loop is over. Insert 3 into j+1 index.  
 最后j=-1，while循环结束，插入到j+1的位置。  
-![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.40.jpg)    
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.40.jpg)  
+****
+Sorting lowest 3 methods is over! They are in-place sort.  
+`Time complexity: O(n2)`  
 
+### quick sort
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.41.jpg)  
+For example, get first value 5, and find some values are smaller than 5.  
+Find them in the right of list and put them to left.  
+获取第一个5，在列表指针右边找比5小的放到左边。  
+8 is bigger than 5, moving arrow to left. 9 is bigger than 5, moving arrow to left.  
+8，9比5大，往左边移动。  
+2 is smaller than 5, moving 2 to left arrow. Now begin to find the number is bigger than 5.  
+2小于5放到左边箭头，现在开始找比5大的。  
+2 is smaller than 5, 7 is bigger than 5, moving 7 to right arrow.  
+2小于5，7大于5，移动7到右箭头。  
+Now left has space place, find the smaller than 5 in right.  
+左边找到空位了，去右边找比5小的空位。  
+7 is bigger than 5, 1 is smaller than 5, moving 1 to left arrow.  
+7大于5，1小于5，移动1到左边箭头。  
+Now find in left. 1 and 4 are smaller than 5. 6 is bigger than 5, moving 6 to right arrow.  
+在左边找，1和4小于5，6大于5，移动6到右边。  
+Now find in right. 6 is bigger than 5, 3 is smaller than 5, moving 3 to left arrow.  
+在右边找，6比5大，3比5小，移动3到左边箭头。  
+Now finding the bigger number is than 5 in left, 3 is smaller than 5, moving left arrow to right.  
+Now left and right are coincidence.  
+在左边找比5大的数，3比5小，左箭头右移，现在左右箭头重合。  
+Moving 5 to this place. This process is the partition of code.  
+把5移动到这里。这就是代码中partition的过程。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_quick_sort.gif)  
+    
 
     
     
