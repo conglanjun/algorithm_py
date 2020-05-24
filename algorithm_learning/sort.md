@@ -24,7 +24,8 @@ Common sorting algorithm
     * cardinality sort 基数排序  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.20.jpg)  
 
-bubble sorting  
+### bubble sorting  
+`Time complexity: O(n2)`  
 If front is bigger than back in each two nearby numbers of list, exchanging them.  
 列表每两个相邻数，如果前面比后面大，则交换。  
 The number of disorder region is reduced in each sorting, while the number of order region is increased.  
@@ -66,6 +67,16 @@ The arrow can't point at 6 index, this is only pointed 5 index.
 So the count of comparing is smaller than the number of disorder region in each sorting.  
 无序区有7个元素，但是只比较6次就可以。      
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.32.jpg)  
+
+Bubble sorting does not exchange in one sorting, it means list is already sorted and it is order.  
+冒泡排序在一趟排序中没有交还，意味着已经排好序了。  
+
+Add a flag, which is exchange = False.  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.33.jpg)  
+When the original list is order, the sorting only needs one loop. While version 1 bubble sorting needs n-1 loops.  
+当数组有序，只需要排一次。版本1冒泡排序需要排n-1次。  
+
+### select sort  
 
 
 

@@ -19,4 +19,5 @@ Learning data structure and algorithm
         `Time complexity: O(logn)`
         [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/search.py)
     * [Sort](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/sort.md)(排序)
-    
+        * Bubble sorting(冒泡排序) [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/bubble_sort.py)
+            `Time complexity: O(n2)`
