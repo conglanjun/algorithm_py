@@ -98,6 +98,14 @@ When the original list is order, the sorting only needs one loop. While version 
     每次循环会把最小值放到有序区，n-1次循环后，有序区n-1个元素，无序区有一个元素，但已经是最大的，因此排序列表需要循环n-1次。  
     ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.35.jpg)  
     ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.36.jpg)  
+### insert sort  
+`Time complexity: O(n2)`  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.37.jpg)  
+For example, the color is orange, it means order region(cards in hand), it is 5.  
+The first card is 7 in the disorder region. 7 is bigger than 5, so insert 7 into the right of 5.  
+手中牌是橙色5，要摸的牌是白色。摸到7比5大，插入到5的右边。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_insert_sort.gif) 
+
     
     
     
