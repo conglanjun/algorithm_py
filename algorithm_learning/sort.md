@@ -80,7 +80,7 @@ When the original list is order, the sorting only needs one loop. While version 
 `Time complexity: O(n2)`  
 1. simple select sort  
     Each loop find the min val of list, and put it into a new list.  
-    每次循环找最小值放到新列表中。
+    每次循环找最小值放到新列表中。  
     ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.34.jpg)  
     The shortage is:  
         a.It needs a new space to save sorted list.  
