@@ -77,7 +77,32 @@ When the original list is order, the sorting only needs one loop. While version 
 当数组有序，只需要排一次。版本1冒泡排序需要排n-1次。  
 
 ### select sort  
-
+`Time complexity: O(n2)`  
+1. simple select sort  
+    Each loop find the min val of list, and put it into a new list.  
+    每次循环找最小值放到新列表中。
+    ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.34.jpg)  
+    The shortage is:  
+        a.It needs a new space to save sorted list.  
+          需要新空间存放列表。  
+        b.Outer layer loop is O(n), the min is O(n),  
+          li.remove is O(n) because of finding the element to remove and the following elements need to be filled forward.  
+          外层循环O(n)，最小值O(n)，删除O(n)因为要找到元素并且后续元素往前补位。  
+2. select sort  
+    Exchange selected element into the first place in the list.  
+    把找到的元素与第一个位置交换。  
+    The first place is order region, while the elements behind is disorder region.  
+    第一个位置就是有序区，后面的元素是无序区。  
+    Each loop we will put the min value into the order region. After n-1 loops, there are n-1 elements in the order region.  
+    There is one element in the disorder region, but it's the biggest one. So we need n-1 loops to sort list.  
+    每次循环会把最小值放到有序区，n-1次循环后，有序区n-1个元素，无序区有一个元素，但已经是最大的，因此排序列表需要循环n-1次。  
+    ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.35.jpg)  
+    ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.36.jpg)  
+    
+    
+    
+    
+    
 
 
 
