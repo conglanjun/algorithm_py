@@ -205,6 +205,10 @@ If you get tmp value is the biggest value, you'll meet the worst condition. But 
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.43.jpg)  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.44.jpg)  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.45.jpg)  
+Heap down adjustment  
+堆的向下调整  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_heap.gif) 
+
 
 
     
