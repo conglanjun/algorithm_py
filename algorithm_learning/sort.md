@@ -183,13 +183,30 @@ Partition 代码。tmp存li第一个变量，左指针指向list第一个位置�
 现在list被切分成左右两部分，右边元素比tmp大，左边元素比tmp小。
 Quick sort代码。调用partition函数得到中间切分索引mid。左半部分调用quick_sort函数，右边也是。递归实现。  
 `Time complexity: O(nlogn)`  
+Because each loop cut the list to left half and right half. So the program runs logn counts of partition.  
+And all parts run n count in one layer. So nlogn time complexity.  
+因为每次循环切分列表为左右两部分，因此程序运行logn次partition函数，并且一层所有部分要运行n次。因此时间复杂度是nlogn。  
 Let's see the worst. The list is reversed order.  
+看下最坏情况，倒序列表。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_quick_sort1.gif)  
 In the worst condition, partition function get the worst result, which only has right part.  
 That means one loop only cuts one element.  
 最坏的情况，partition函数只获取右边部分。左边部分没有。也就是一次只切分掉一个元素。  
-    
-    
+So the program runs n counts partition, the time complexity is O(n2) in the worst condition.  
+程序要运行n次partition函数，最坏情况时间复杂度是O(n2)。  
+If you want to test the worst condition, it maybe throw Recursion Error. So `sys.setrecursionlimit(1000)`
+测试最坏情况，递归栈可能会溢出，设置递归参数  `sys.setrecursionlimit(1000)`  
+We can solve the problem with random finding the tmp value from list. Exchange first value and the finding value。  
+通过随机tmp值来解决这个问题。交换第一个数和随机找的数。  
+If you get tmp value is the biggest value, you'll meet the worst condition. But the probability is small.  
+如果你找到tmp值是最大值，你会遇到最坏的情况。但是概率很小。  
+
+### quick sort
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.43.jpg)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.44.jpg)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.45.jpg)  
+
+
     
 
 
