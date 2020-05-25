@@ -166,6 +166,22 @@ Moving 5 to this place. This process is the partition of code.
 把5移动到这里。这就是代码中partition的过程。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_quick_sort.gif)  
     
+Explain code.  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.42.jpg)  
+Partition code. Variant tmp sorts the first value of li. Left points the begin of the list, while right points the end of list.  
+When left < right, we find right arrow element is smaller than tmp value, the arrow will be moved to left one step.  
+Until we find right arrow points element which is smaller than tmp. Move right element to left point.  
+Now we find left arrow element is bigger than tmp value, the arrow will be moved to right,  
+until we find left arrow points element which is bigger than tmp. Move left element to right point.  
+Until left and right arrows are coincidence. Put tmp value into left arrow.  
+Now list is separated left elements are smaller than tmp value, right elements are bigger than tmp value.  
+Quick sort code. Involve partition function return mid index. Left list is put into quick_sort function.  
+Right list is put into quick_sort function. Recursion implement.  
+Partition 代码。tmp存li第一个变量，左指针指向list第一个位置，右指针指向末尾，左指针小于右指针时进行list的元素查找。  
+右指针会向左边移动直到找到比tmp小的值，把它移动到左边的位置。左指针会向右边移动直到找到比tmp大的值，把它移动到右边位置。  
+直到左右指针重合，把tmp值放到指针位置。  
+现在list被切分成左右两部分，右边元素比tmp大，左边元素比tmp小。
+Quick sort代码。调用partition函数得到中间切分索引mid。左半部分调用quick_sort函数，右边也是。递归实现。
 
     
     
