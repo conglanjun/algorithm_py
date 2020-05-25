@@ -184,7 +184,7 @@ Partition 代码。tmp存li第一个变量，左指针指向list第一个位置�
 Quick sort代码。调用partition函数得到中间切分索引mid。左半部分调用quick_sort函数，右边也是。递归实现。  
 `Time complexity: O(nlogn)`  
 Let's see the worst. The list is reversed order.  
-![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_quick_sort1.html)    
+![worst](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_quick_sort1.html)    
     
     
     
