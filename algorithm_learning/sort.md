@@ -210,12 +210,24 @@ Heap down adjustment
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_heap.gif)  
 When the right and left sub trees are all heap, you can down adjustment to make a heap.  
 当根节点左右子树都是堆时，可以通过向下调整将其变成一个堆。  
-
-
-
-    
-
-
-
-
-
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.46.jpg)  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_heap_sort.gif)  
+When the heap is built, top of the heap is the biggest element. Get the top element which is the biggest.  
+建立堆，堆顶是最大元素，拿下来。  
+Now top is empty, we need put an element into the top. Shall we put 8 up? No. It may lead to non-complete binary tree.  
+堆顶是空，需要放元素上去。不能把8放上去，可能会产生不是完全二叉树。  
+So put 3 which is the end element to the top. Now heap down adjustment.  
+把3放到顶端，现在向下调整。  
+Now move 3 out, 8 up. And 3 is smaller 6, so 6 up. And 3 is smaller than 4, so 4 up. 3 is set to the end.  
+先把3放到一边，8上位，3小于6因此6上位，3小于4，因此4上位，3放到4以前的位置，在树的最末端。  
+Now the heap top is second biggest element of the tree. Move 8 to sort list.  
+现在堆顶是树第二大的元素，放到排序列表中。  
+Put the end element of the tree to the heap top, which is 3.  
+把树最后元素放到堆顶，是3。  
+Heap down adjustment again. 7 up, set 3. 7 move to sort list, the end element which is 2 is moved to heap top. Heap down adjustment.  
+再次向下调整，7上去，3放到空位。7移动到有序列表，树最后的元素2移动到堆顶，堆向下调整。  
+Move 2 out, 6 up, 5 up, 2 is set location. Move 6 to sort list, 1 to heap top. Adjustment. Move 1 out, 5 up, 4 up, 1 is located.  
+2出来，6上去5上去，2定位。6放到有序列表，1上到堆顶。向下调整。1出来5上去4上去1定位。  
+Move 5 to sort list, 0 up, 0 out, 4 up, 2 up, 0 is located. Move 4 to sort list, 0 up, 0 out, 3 up, 0 is located.  
+移动5到有序列表，0上位，0出来，4上位2上位，0被定位。4移动到有序列表，0上位0出来，3上位0定位。  
+Move 3 to sort list, 1 up, 1 out, 2 up, 1 is located. Move 2 to sort list, 0 up, 0 out 1 up 0 is located.  
