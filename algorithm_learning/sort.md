@@ -231,3 +231,9 @@ Move 2 out, 6 up, 5 up, 2 is set location. Move 6 to sort list, 1 to heap top. A
 Move 5 to sort list, 0 up, 0 out, 4 up, 2 up, 0 is located. Move 4 to sort list, 0 up, 0 out, 3 up, 0 is located.  
 移动5到有序列表，0上位，0出来，4上位2上位，0被定位。4移动到有序列表，0上位0出来，3上位0定位。  
 Move 3 to sort list, 1 up, 1 out, 2 up, 1 is located. Move 2 to sort list, 0 up, 0 out 1 up 0 is located.  
+移动3到有序列表，1上去1出来，，2上去1归位。移动2到有序列表，0上去0出来1上去0归位。  
+
+Construct heap is from bottom to top.  
+构建堆是从底部往顶部构建。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.47.jpg)  
+ 
