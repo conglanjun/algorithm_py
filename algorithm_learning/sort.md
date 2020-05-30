@@ -233,7 +233,10 @@ Move 5 to sort list, 0 up, 0 out, 4 up, 2 up, 0 is located. Move 4 to sort list,
 Move 3 to sort list, 1 up, 1 out, 2 up, 1 is located. Move 2 to sort list, 0 up, 0 out 1 up 0 is located.  
 移动3到有序列表，1上去1出来，，2上去1归位。移动2到有序列表，0上去0出来1上去0归位。  
 
-Construct heap is from bottom to top.  
-构建堆是从底部往顶部构建。  
+Construct heap is from bottom to top. See the non-leaf node.  
+构建堆是从底部往顶部构建。看非叶子节点。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.47.jpg)  
+3 down, 5 up.  
+3下去5上来。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.48.jpg)  
  
