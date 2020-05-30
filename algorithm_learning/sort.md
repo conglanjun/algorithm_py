@@ -239,4 +239,8 @@ Construct heap is from bottom to top. See the non-leaf node.
 3 down, 5 up.  
 3下去5上来。  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.48.jpg)  
+Next see 9,2,4 subtree.    
+下一轮转到9,2,4。  
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.49.jpg)  
+  
  
