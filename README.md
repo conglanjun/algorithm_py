@@ -21,3 +21,9 @@ Learning data structure and algorithm
     * [Sort](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/sort.md)(排序)
         * Bubble sorting(冒泡排序) [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/bubble_sort.py)  
             `Time complexity: O(n2)`
+        * Select sort(选择排序) [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/select_sort.py)  
+            `Time complexity: O(n2)`
+        * Insert sort(插入排序) [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/insert_sort.py)  
+            `Time complexity: O(n2)`
+        * Quick sort(快速排序) [Code](https://github.com/conglanjun/algorithm_py/blob/master/algorithm_learning/quick_sort.py)  
+            `Time complexity: O(nlogn)`

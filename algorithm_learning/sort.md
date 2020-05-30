@@ -201,13 +201,15 @@ We can solve the problem with random finding the tmp value from list. Exchange f
 If you get tmp value is the biggest value, you'll meet the worst condition. But the probability is small.  
 如果你找到tmp值是最大值，你会遇到最坏的情况。但是概率很小。  
 
-### quick sort
+### head sort
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.43.jpg)  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.44.jpg)  
 ![image](https://github.com/conglanjun/algorithm_py/blob/master/image/1.45.jpg)  
 Heap down adjustment  
 堆的向下调整  
-![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_heap.gif) 
+![image](https://github.com/conglanjun/algorithm_py/blob/master/image/alg_heap.gif)  
+When the right and left sub trees are all heap, you can down adjustment to make a heap.  
+当根节点左右子树都是堆时，可以通过向下调整将其变成一个堆。  
 
 
 
